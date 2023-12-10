@@ -1,0 +1,220 @@
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Spectral";
+  }
+  header {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgb(65, 94, 189) 0%,
+      rgb(27, 4, 4) 50%,
+      rgb(77, 57, 30) 100%
+    );
+    padding: 20px;
+  }
+  .headerContainer {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .contentHolder {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .imgProfile {
+    width: 200px;
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 50px 25px 15px 2px rgba(84, 43, 111, 0.5);
+    transition: all;
+    transition-duration: 1s;
+    background-size: contain;
+  }
+  .imgProfile:hover {
+    margin-left: -10px;
+  }
+  .holderImgProfile {
+    flex: 1;
+    text-align: center;
+  }
+  .holderDetailProfile {
+    flex: 2;
+  }
+  .nameProfile {
+    font-size: 34px;
+    color: white;
+    font-weight: 600;
+    margin-top: 2rem;
+    
+  }
+  .titleProfile {
+    color: white;
+    font-size: 24px;
+  }
+  .button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    font-family: "Roboto Slab", serif;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+  .button.download {
+    background-color: #e6e9ed;
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+  }
+  .button.hire {
+    background-color: #37bc9b;
+    color: white;
+    cursor: pointer;
+  }
+  .button:hover {
+    transform: scale(1.15);
+  }
+  .barContainer {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(235, 233, 233);
+    position: relative;
+  }
+  .barFilling {
+    position: absolute;
+
+    height: 20px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 1s;
+  }
+  .green {
+    background-color: rgb(91, 59, 167);
+    width: 70%;
+  }
+  .orange {
+    background-color: rgb(112, 60, 60);
+    width: 65%;
+  }
+  .grey {
+    background-color: rgb(106, 81, 81);
+    width: 35%;
+  }
+
+  .grey2 {
+    background-color: rgb(34, 29, 80);
+    width: 35%;
+  }
+  .grey3 {
+    background-color: rgb(194, 104, 104);
+    width: 45%;
+  }
+  .grey4 {
+    background-color: rgb(177, 177, 177);
+    width: 35%;
+  }
+  .grey5 {
+    background-color: rgb(76, 25, 25);
+    width: 35%;
+  }
+  .subContent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+  }
+  h3 {
+    font-weight: 600;
+  }
+  .skillBar {
+    display: block;
+    margin: 10px 0;
+  }
+  ul.workEx li {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  ul.workEx li:first-child {
+    padding-top: 0;
+  }
+  span strong {
+    color: #1eb574;
+  }
+  .subWorkEx {
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+  }
+  footer {
+    background-color: rgb(59, 43, 43);
+    text-align: center;
+  }
+
+  .footerHolder {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .footerName {
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .footerName2 {
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1rem;
+  }
+
+  /* =========================================== */
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    margin-top: 1rem;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 0.1rem;
+  }
+
+  .fa-instagram {
+    background: linear-gradient(#f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #ff0000;
+    color: white;
+    margin: 0.1rem;
+  }
+
+  .fa-github {
+    background: #24292f;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: linear-gradient(45deg, #0e76a8, #0e76a8);
+    color: white;
+  }
+ 
